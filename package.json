@@ -1,14 +1,17 @@
 {
-    "name": "assignment1",
-    "version": "0.0.0",
+    "name": "flappy-bird",
+    "version": "1.0.0",
     "type": "module",
     "private": true,
+    "homepage": "https://abnanw.github.io/flappy-bird/",
     "scripts": {
         "test": "vitest",
         "test:ui": "vitest --ui",
         "test:run": "vitest run",
         "dev": "vite",
         "build": "tsc && vite build",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist",
         "generate-pipes": "tsx --tsconfig scripts/tsconfig.json scripts/generate_pipes.ts"
     },
     "dependencies": {
@@ -17,6 +20,7 @@
     "devDependencies": {
         "@types/node": "^24.0.10",
         "@vitest/ui": "^3.2.4",
+        "gh-pages": "^6.3.0",
         "prettier": "^3.6.2",
         "tsx": "^4.20.3",
         "typescript": "~5.8.3",
