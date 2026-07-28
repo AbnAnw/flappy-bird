@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <title>FIT2102 A1 2025</title>
+      <script type="module" crossorigin src="/flappy-bird/assets/index-Djn4143P.js"></script>
+      <link rel="stylesheet" crossorigin href="/flappy-bird/assets/index-DzLGp1ep.css">
+    </head>
+    <body>
+        <h1>Flappy Birb</h1>
+        <main id="main" class="flex col">
+
+            <svg id="svgCanvas" width="600" height="400">
+                <g id="pipes"></g>
+                <g id="ghosts"></g>
+                <image id="bird" href="data:image/png;base64,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" width="42" height="30"></image>
+
+                <g id="gameOver" visibility="hidden">
+                    <rect x="225" y="176" fill="white" height="48" width="150"></rect>
+                    <text x="235" y="206">Game Over</text>
+                </g>
+            </svg>
+            <div id="sideBar" class="flex col">
+                <div id="info" class="flex col">
+                    <div class="text">
+                        <span class="left">Lives: </span>
+                        <span class="right" id="livesText">...</span>
+                    </div>
+                    <div class="text">
+                        <span class="left">Score: </span>
+                        <span class="right" id="scoreText">...</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
