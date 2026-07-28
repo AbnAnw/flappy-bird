@@ -1,5 +1,12 @@
 # Flappy Birb
 
+[![Live Demo](https://img.shields.io/badge/🎮%20Play-Live%20Demo-brightgreen?style=for-the-badge)](https://abnanw.github.io/flappy-bird/)
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![RxJS](https://img.shields.io/badge/RxJS-B7178C?style=flat-square&logo=reactivex&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-success?style=flat-square&logo=github)
+
 A browser-based recreation of Flappy Bird developed using **TypeScript**, **RxJS**, **SVG**, and **Vite**.
 
 This project was built to explore **Functional Reactive Programming (FRP)** by modelling game behaviour through observable streams and immutable state updates rather than traditional imperative game loops.
